@@ -1,0 +1,599 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullName": "Nguyen Van A",
+      "email": "nguyenvana@example.com",
+      "password": "123456",
+      "token": "token-1"
+    },
+    {
+      "id": "2",
+      "fullName": "Le Thi B",
+      "email": "lethib@example.com",
+      "password": "abcdef",
+      "token": "token-2"
+    },
+    {
+      "id": "b89a",
+      "fullName": "Lê Quang Trọng Nghĩa",
+      "email": "lqtnghia2602@gmail.com",
+      "password": "123",
+      "token": "U7ZKKeC60uxYTH6vryui"
+    }
+  ],
+  "topics": [
+    {
+      "id": "1",
+      "name": "HTML5"
+    },
+    {
+      "id": "2",
+      "name": "CSS3"
+    },
+    {
+      "id": "3",
+      "name": "Javascript"
+    },
+    {
+      "id": "4",
+      "name": "ReactJS"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "topicId": 1,
+      "question": "HTML5 là gì?",
+      "answers": [
+        "Ngôn ngữ lập trình",
+        "Ngôn ngữ đánh dấu siêu văn bản",
+        "Hệ điều hành",
+        "Trình duyệt web"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "2",
+      "topicId": 1,
+      "question": "Thẻ <canvas> trong HTML5 dùng để làm gì?",
+      "answers": [
+        "Hiển thị video",
+        "Vẽ đồ họa 2D",
+        "Thêm stylesheet",
+        "Chạy script"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "3",
+      "topicId": 1,
+      "question": "Thuộc tính placeholder trong HTML5 dùng cho form có tác dụng gì?",
+      "answers": [
+        "Hiển thị nhảy",
+        "Thêm gợi ý",
+        "Tạo địa chỉ email",
+        "Xác định loại input"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "4",
+      "topicId": 1,
+      "question": "HTML5 thay thế thẻ nào cho thẻ <font>?",
+      "answers": ["<style>", "<span>", "<div>", "<mark>"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "5",
+      "topicId": 1,
+      "question": "Thẻ <section> trong HTML5 dùng để làm gì?",
+      "answers": [
+        "Tạo phân đoạn",
+        "Hiển thị hình ảnh",
+        "Chỉnh style",
+        "Thêm event"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "6",
+      "topicId": 1,
+      "question": "HTML5 thêm công nghệ nào cho video?",
+      "answers": ["H.264", "MP4", "GIF", "WEBP"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "7",
+      "topicId": 1,
+      "question": "HTML5 thay thế API nào cho drag-and-drop?",
+      "answers": ["Old API", "New API", "DOM API", "Event API"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "8",
+      "topicId": 1,
+      "question": "HTML5 có cho phép sử dụng WebSocket?",
+      "answers": ["Yes", "No", "Partial", "Unknown"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "9",
+      "topicId": 1,
+      "question": "HTML5 thế nào cho animation?",
+      "answers": ["CSS", "SVG", "WebGL", "All of them"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "10",
+      "topicId": 1,
+      "question": "Thẻ nào trong HTML5 cho metadata?",
+      "answers": ["<meta>", "<info>", "<data>", "<head>"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "11",
+      "topicId": 2,
+      "question": "CSS3 là gì?",
+      "answers": [
+        "Ngôn ngữ backend",
+        "Trình duyệt web",
+        "Ngôn ngữ style",
+        "API"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "12",
+      "topicId": 2,
+      "question": "CSS3 thêm đặc tính Flexbox, dùng để?",
+      "answers": [
+        "Hiển thị text",
+        "Quản lý layout",
+        "Chạy script",
+        "Tăng tốc truy vấn"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "13",
+      "topicId": 2,
+      "question": "CSS3 có module nào cho animation?",
+      "answers": ["2D", "3D", "All of them", "None"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "14",
+      "topicId": 2,
+      "question": "CSS3 dùng thuộc tính nào cho gradient?",
+      "answers": [
+        "linear-gradient",
+        "image-gradient",
+        "shape",
+        "border-radius"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "15",
+      "topicId": 2,
+      "question": "CSS3 hỗ trợ Responsive Design thông qua công nghệ nào?",
+      "answers": ["Media Queries", "JavaScript", "HTML", "DOM"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "16",
+      "topicId": 2,
+      "question": "Thuộc tính nào giúp CSS3 làm tròn góc?",
+      "answers": ["border", "border-radius", "radius", "margin"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "17",
+      "topicId": 2,
+      "question": "CSS3 hỗ trợ kiểu bố cục nào?",
+      "answers": ["Flexbox", "Grid", "Both", "None"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "18",
+      "topicId": 2,
+      "question": "Thuộc tính z-index trong CSS3 dùng để?",
+      "answers": [
+        "Hiển thị bóng",
+        "Xếp lớp phần tử",
+        "Chạy event",
+        "Thêm hình ảnh"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "19",
+      "topicId": 2,
+      "question": "Thuộc tính transform trong CSS3 dùng để?",
+      "answers": [
+        "Thay đổi kích thước",
+        "Tạo hiệu ứng 3D",
+        "Cả hai",
+        "Không có đáp án đúng"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "20",
+      "topicId": 2,
+      "question": "CSS3 hỗ trợ hiệu ứng nào cho text?",
+      "answers": ["shadow", "glow", "animation", "Cả ba"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "21",
+      "topicId": 3,
+      "question": "JavaScript là gì?",
+      "answers": [
+        "Ngôn ngữ lập trình",
+        "Trình duyệt web",
+        "Hệ điều hành",
+        "Cơ sở dữ liệu"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "22",
+      "topicId": 3,
+      "question": "Event Loop trong JavaScript dùng để làm gì?",
+      "answers": [
+        "Xử lý đồng bộ",
+        "Xử lý bất đồng bộ",
+        "Quản lý bộ nhớ",
+        "Chạy API"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "23",
+      "topicId": 3,
+      "question": "JavaScript có hỗ trợ kiểu dữ liệu nào?",
+      "answers": ["Number", "String", "Object", "All of them"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "24",
+      "topicId": 3,
+      "question": "Closure trong JavaScript là gì?",
+      "answers": [
+        "Một loại hàm",
+        "Một kiểu dữ liệu",
+        "Cách xử lý bất đồng bộ",
+        "Hàm bên trong hàm khác"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "25",
+      "topicId": 3,
+      "question": "JavaScript sử dụng phương pháp nào để tạo đối tượng?",
+      "answers": ["Object.create", "Class", "Prototype", "All of them"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "26",
+      "topicId": 3,
+      "question": "Async/Await trong JavaScript dùng để làm gì?",
+      "answers": [
+        "Xử lý đồng bộ",
+        "Xử lý bất đồng bộ",
+        "Gọi API",
+        "Tạo sự kiện"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "27",
+      "topicId": 3,
+      "question": "Hàm map() trong JavaScript hoạt động như thế nào?",
+      "answers": [
+        "Lặp qua mảng",
+        "Tạo mảng mới",
+        "Không làm gì",
+        "Cả hai đầu tiên"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "28",
+      "topicId": 3,
+      "question": "Fetch API trong JavaScript dùng để?",
+      "answers": ["Tải dữ liệu", "Tạo sự kiện", "Kết nối WebSocket", "Gọi hàm"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "29",
+      "topicId": 3,
+      "question": "JavaScript hỗ trợ DOM không?",
+      "answers": ["Yes", "No", "Một phần", "Không rõ"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "30",
+      "topicId": 4,
+      "question": "ReactJS là gì?",
+      "answers": ["Framework", "Thư viện", "Ngôn ngữ", "Database"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "31",
+      "topicId": 4,
+      "question": "React sử dụng khái niệm nào để tạo giao diện?",
+      "answers": ["Components", "Modules", "Widgets", "Plugins"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "32",
+      "topicId": 4,
+      "question": "State trong React là gì?",
+      "answers": [
+        "Một phương thức",
+        "Một biến cục bộ",
+        "Một biến toàn cục",
+        "Dữ liệu động của component"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "33",
+      "topicId": 4,
+      "question": "React Hook nào dùng để quản lý state?",
+      "answers": ["useState", "useEffect", "useRef", "useMemo"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "34",
+      "topicId": 4,
+      "question": "ReactJS có hỗ trợ quản lý side effect không?",
+      "answers": ["Yes", "No", "Only with external libraries", "Không rõ"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "35",
+      "topicId": 4,
+      "question": "ReactJS sử dụng JSX để làm gì?",
+      "answers": [
+        "Tạo HTML trong JavaScript",
+        "Tạo event",
+        "Quản lý state",
+        "Tạo DOM"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "36",
+      "topicId": 4,
+      "question": "Context API trong ReactJS dùng để?",
+      "answers": [
+        "Quản lý state toàn cục",
+        "Tạo components",
+        "Tăng tốc render",
+        "Không rõ"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "37",
+      "topicId": 4,
+      "question": "ReactJS hỗ trợ phân mảnh (fragments) để làm gì?",
+      "answers": [
+        "Tối ưu giao diện",
+        "Quản lý DOM",
+        "Tạo components",
+        "Tránh thẻ không cần thiết"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "38",
+      "topicId": 4,
+      "question": "ReactJS hỗ trợ Virtual DOM để làm gì?",
+      "answers": [
+        "Tăng hiệu suất",
+        "Tạo API",
+        "Kết nối server",
+        "Cải thiện bảo mật"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "39",
+      "topicId": 4,
+      "question": "ReactJS có thể được sử dụng với Redux không?",
+      "answers": ["Yes", "No", "Chỉ với hooks", "Không rõ"],
+      "correctAnswer": 0
+    }
+  ],
+  "answers": [
+    {
+      "id": "1",
+      "userId": "1",
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 1
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 3
+        },
+        {
+          "questionId": 5,
+          "answer": 0
+        },
+        {
+          "questionId": 6,
+          "answer": 0
+        },
+        {
+          "questionId": 7,
+          "answer": 1
+        },
+        {
+          "questionId": 8,
+          "answer": 0
+        },
+        {
+          "questionId": 9,
+          "answer": 3
+        },
+        {
+          "questionId": 10,
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 11,
+          "answer": 2
+        },
+        {
+          "questionId": 12,
+          "answer": 1
+        },
+        {
+          "questionId": 13,
+          "answer": 2
+        },
+        {
+          "questionId": 14,
+          "answer": 0
+        },
+        {
+          "questionId": 15,
+          "answer": 0
+        },
+        {
+          "questionId": 16,
+          "answer": 1
+        },
+        {
+          "questionId": 17,
+          "answer": 2
+        },
+        {
+          "questionId": 18,
+          "answer": 1
+        },
+        {
+          "questionId": 19,
+          "answer": 2
+        },
+        {
+          "questionId": 20,
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "userId": "b89a",
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 21,
+          "answer": 0
+        },
+        {
+          "questionId": 22,
+          "answer": 1
+        },
+        {
+          "questionId": 23,
+          "answer": 3
+        },
+        {
+          "questionId": 24,
+          "answer": 3
+        },
+        {
+          "questionId": 25,
+          "answer": 3
+        },
+        {
+          "questionId": 26,
+          "answer": 1
+        },
+        {
+          "questionId": 27,
+          "answer": 3
+        },
+        {
+          "questionId": 28,
+          "answer": 0
+        },
+        {
+          "questionId": 29,
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "userId": "b89a",
+      "topicId": 4,
+      "answers": [
+        {
+          "questionId": 30,
+          "answer": 1
+        },
+        {
+          "questionId": 31,
+          "answer": 0
+        },
+        {
+          "questionId": 32,
+          "answer": 3
+        },
+        {
+          "questionId": 33,
+          "answer": 0
+        },
+        {
+          "questionId": 34,
+          "answer": 0
+        },
+        {
+          "questionId": 35,
+          "answer": 0
+        },
+        {
+          "questionId": 36,
+          "answer": 0
+        },
+        {
+          "questionId": 37,
+          "answer": 3
+        },
+        {
+          "questionId": 38,
+          "answer": 0
+        },
+        {
+          "questionId": 39,
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}

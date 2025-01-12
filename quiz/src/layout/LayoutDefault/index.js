@@ -21,29 +21,34 @@ function LayoutDefault() {
           <div className="menu">
             <ul>
               <li>
-                <NavLink to="/">Home</NavLink>
+                <NavLink to="/">Trang chủ</NavLink>
               </li>
-              {isLogin && (
-                <>
-                  <li>
-                    <NavLink to="/topic">Topic</NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/answers">Answers</NavLink>
-                  </li>
-                </>
-              )}
+              <li>
+                <NavLink to="/introduce">Giới thiệu</NavLink>
+              </li>
+              <li>
+                <NavLink to="/topic">Chủ đề thi</NavLink>
+              </li>
+              <li>
+                <NavLink to="/answers">Lịch sử làm bài</NavLink>
+              </li>
+              <li>
+                <NavLink to="/document">Tài liệu</NavLink>
+              </li>
             </ul>
           </div>
           <div className="layout-default__account">
             {isLogin ? (
               <>
-                <NavLink to="/logout">Đăng xuất</NavLink>
+                <NavLink to="/logout" className="button">
+                  Đăng xuất
+                </NavLink>
               </>
             ) : (
               <>
-                <NavLink to="/login">Đăng nhập</NavLink>
-                <NavLink to="/register">Đăng ký</NavLink>
+                <NavLink to="/login" className="button">
+                  Đăng nhập
+                </NavLink>
               </>
             )}
           </div>

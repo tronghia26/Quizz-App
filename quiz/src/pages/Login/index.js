@@ -1,8 +1,16 @@
 import { login } from "../../services/usersService";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate, NavLink } from "react-router-dom";
 import { setCookie } from "../../helpers/cookie";
 import { useDispatch } from "react-redux";
 import { checkLogin } from "../../actions/login";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser, faLock } from "@fortawesome/free-solid-svg-icons";
+import {
+  faTwitter,
+  faFacebook,
+  faGoogle,
+} from "@fortawesome/free-brands-svg-icons";
+import "./Login.scss";
 
 function Login() {
   const navigate = useNavigate();
@@ -27,16 +35,45 @@ function Login() {
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
-        <h2>Login</h2>
-        <div>
-          <input type="email" placeholder="Nhập email" />
+      <div className="login-content">
+        <h2>Đăng nhập</h2>
+        <form onSubmit={handleSubmit}>
+          <div className="input-group">
+            <FontAwesomeIcon icon={faUser} className="icon" />
+            <input type="email" placeholder="Nhập email" required />
+          </div>
+          <div className="input-group">
+            <FontAwesomeIcon icon={faLock} className="icon" />
+            <input type="password" placeholder="Nhập mật khẩu" required />
+          </div>
+          <div className="checkbox-group">
+            <input type="checkbox" id="rememberMe" />
+            <label htmlFor="rememberMe">Lưu mật khẩu</label>
+          </div>
+          <button type="submit" className="btn">
+            Đăng nhập
+          </button>
+        </form>
+        <div className="social-login">
+          <p>Bằng cách khác</p>
+          <div className="social-icons">
+            <Link to="#">
+              <FontAwesomeIcon icon={faFacebook} className="icon-facebook" />
+            </Link>
+            <Link to="#">
+              <FontAwesomeIcon icon={faTwitter} className="icon-twitter" />
+            </Link>
+            <Link to="#">
+              <FontAwesomeIcon icon={faGoogle} className="icon-google" />
+            </Link>
+          </div>
+          <div className="register">
+            <NavLink to="/register" className="create-account">
+              Tạo tài khoản
+            </NavLink>
+          </div>
         </div>
-        <div>
-          <input type="password" placeholder="Nhập mật khẩu" />
-        </div>
-        <button type="submit">Login</button>
-      </form>
+      </div>
     </>
   );
 }

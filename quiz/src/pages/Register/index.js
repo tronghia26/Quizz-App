@@ -1,6 +1,9 @@
 import { checkExist, register } from "../../services/usersService";
 import { useNavigate } from "react-router-dom";
 import { generateToken } from "../../helpers/generateToken";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser, faLock, faFont } from "@fortawesome/free-solid-svg-icons";
+import "./Register.scss";
 
 function Register() {
   const navigate = useNavigate();
@@ -30,35 +33,30 @@ function Register() {
         alert("Đăng ký không thành công");
       }
     }
-
-    // if (response.length > 0) {
-    //   console.log(response);
-    //   setCookie("id", response[0].id, 1);
-    //   setCookie("fullname", response[0].fullname, 1);
-    //   setCookie("email", response[0].email, 1);
-    //   setCookie("token", response[0].token, 1);
-    //   dispatch(checkLogin(true));
-    //   navigate("/");
-    // } else {
-    //   alert("Tài khoản hoặc mật khẩu không đúng!");
-    // }
   };
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
-        <h2>Register</h2>
-        <div>
-          <input type="fullname" placeholder="Nhập fullname" />
-        </div>
-        <div>
-          <input type="email" placeholder="Nhập email" />
-        </div>
-        <div>
-          <input type="password" placeholder="Nhập mật khẩu" />
-        </div>
-        <button type="submit">Register</button>
-      </form>
+      <div className="register-content">
+        <h2>Đăng ký</h2>
+        <form onSubmit={handleSubmit}>
+          <div className="input-group">
+            <FontAwesomeIcon icon={faFont} className="icon" />
+            <input type="fullname" placeholder="Nhập fullname" required />
+          </div>
+          <div className="input-group">
+            <FontAwesomeIcon icon={faUser} className="icon" />
+            <input type="email" placeholder="Nhập email" required />
+          </div>
+          <div className="input-group">
+            <FontAwesomeIcon icon={faLock} className="icon" />
+            <input type="password" placeholder="Nhập mật khẩu" required />
+          </div>
+          <button type="submit" className="btn">
+            Đăng ký
+          </button>
+        </form>
+      </div>
     </>
   );
 }

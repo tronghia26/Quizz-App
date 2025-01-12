@@ -7,6 +7,16 @@
     padding: 10px 20px;
   }
 
+  &__logo {
+    width: 10%;
+    height: auto;
+
+    img {
+      width: 100%;
+      border-radius: 20px;
+    }
+  }
+
   &__main {
     padding: 20px;
   }

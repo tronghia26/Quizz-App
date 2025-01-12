@@ -9,14 +9,12 @@ function Answer() {
     const fetchApi = async () => {
       const answerByUserId = await getAnswerByUserId();
       const topics = await getListTopic();
-      console.log(topics);
-      console.log(answerByUserId);
 
       let result = [];
 
       for (let i = 0; i < answerByUserId.length; i++) {
         result.push({
-          ...topics.find((item) => (item.id = answerByUserId[i].topicId)),
+          ...topics.find((item) => item.id === answerByUserId[i].topicId),
           ...answerByUserId[i],
         });
       }
@@ -25,8 +23,6 @@ function Answer() {
     };
     fetchApi();
   }, []);
-
-  console.log(dataAnswer);
 
   return (
     <>

@@ -1,4 +1,4 @@
-import "./Error404.css";
+import "../../styles/Error404.css";
 
 function Error404() {
   return (

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getAnswer } from "../../services/answersService";
 import { getListQuestion } from "../../services/questionsService";
-import "./Result.css";
+import "../../styles/Result.css";
 
 function Result() {
   const params = useParams();

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./Document.scss";
+import "../../styles/Document.scss";
 
 function Document() {
   return (

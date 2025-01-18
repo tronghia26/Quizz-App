@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
-import "./LayoutDefault.scss";
+import "../../styles/LayoutDefault.scss";
 // import { getCookie } from "../../helpers/cookie";
 import { useSelector } from "react-redux";
 

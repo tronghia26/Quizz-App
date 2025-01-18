@@ -10,7 +10,7 @@ import {
   faFacebook,
   faGoogle,
 } from "@fortawesome/free-brands-svg-icons";
-import "./Login.scss";
+import "../../styles/Login.scss";
 
 function Login() {
   const navigate = useNavigate();

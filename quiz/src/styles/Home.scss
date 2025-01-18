@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --color-one: #8261ee;
+  --color-two: #ff589e;
+  --color-text: #1e1e1e;
+
+  --font: "Raleway", serif;
+}
+
+// body {
+//   color: var(--color-text);
+//   line-height: 1.6;
+//   font-family: var(--font);
+//   margin: 0;
+// }
+
+a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--color-two);
+}
+
+/* Button */
+.button {
+  display: inline-block;
+  padding: 8px 20px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 45px;
+  background-color: #fff;
+  color: var(--color-text);
+  transition: all 0.3 ease 0s;
+}
+
+.button-one {
+  background: var(--color-one);
+  color: #fff;
+}
+
+.button-one:hover {
+  background: var(--color-two);
+  color: #fff;
+  transition: all 0.3 ease;
+}
+
+.button-two {
+  background: var(--color-two);
+  color: #fff;
+}
+
+.button-two:hover {
+  background: var(--color-one);
+  color: #fff;
+  transition: all 0.3 ease;
+}
+/* End Button */
+
+/* Section One */
+.section-one {
+  background-image: url("../../public/assets/image/quizz-bg.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-one .inner-wrap {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.section-one .inner-title {
+  font-size: 32px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.section-one .inner-desc {
+  color: black;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767.98px) {
+  .section-one .inner-title {
+    font-size: 20px;
+  }
+  .section-one .inner-desc {
+    color: #fff;
+    margin-bottom: 13px;
+  }
+}
+/* End Section One */
+
+/* Section Two */
+.section-two {
+  margin-top: -220px;
+}
+
+.section-two .inner-box {
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-two .inner-box .inner-icon {
+  background: var(--color-one);
+  display: inline-flex;
+  padding: 20px;
+  width: 80px;
+  height: 80px;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.section-two .inner-box:hover {
+  cursor: pointer;
+}
+
+.section-two .inner-box:hover .inner-icon {
+  background: var(--color-two);
+}
+
+.section-two .inner-box .inner-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.section-two .inner-box .inner-title {
+  font-style: 18px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+  display: -webkit-box; /* Sử dụng để hỗ trợ ellipsis với multi-line */
+  -webkit-box-orient: vertical; /* Hướng của box */
+  overflow: hidden; /* Ẩn nội dung vượt quá */
+  text-overflow: ellipsis; /* Hiển thị dấu "..." */
+  white-space: normal; /* Đảm bảo text xuống dòng */
+  line-clamp: 1; /* Giới hạn chỉ 1 dòng */
+  -webkit-line-clamp: 1; /* Giới hạn chỉ 1 dòng cho trình duyệt hỗ trợ */
+}
+
+.section-two .inner-box .inner-desc {
+  font-style: 13px;
+  margin-bottom: 0;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: 2; /* Giới hạn 2 dòng */
+  line-clamp: 2;
+}
+
+@media (max-width: 991.98px) {
+  .section-two {
+    margin-top: 0;
+  }
+}
+/* End Section Two */
+
+/* Section Three */
+.section-three {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.section-three .inner-image {
+  text-align: center;
+}
+
+.section-three .inner-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-three .inner-content .inner-title {
+  font-style: 28px;
+  margin-bottom: 25px;
+}
+
+.section-three .inner-border-bottom {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 991.98px) {
+  .section-three .inner-image {
+    margin-bottom: 30px;
+  }
+}
+/* End Section Three */
+
+/* Section Four */
+.section-four {
+  background-image: url("../../public/assets/image/fun-facts-bg.png");
+  padding: 80px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-four .inner-box .inner-content {
+  color: #fff;
+}
+
+.section-four .inner-box {
+  position: relative;
+}
+
+.section-four .inner-box::before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 20px;
+  background-image: url("../../public/assets/image/circle-dec.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+}
+
+.section-four .inner-box:hover .inner-content {
+  transform: translateY(-20px);
+  transition: all 0.5s ease 0s;
+}
+
+.section-four .inner-box .inner-number {
+  font-size: 32px;
+  font-weight: 700;
+}
+/* End Section Four */
+
+/* Blog-entries */
+.blog-entries {
+  padding-bottom: 80px;
+}
+
+.blog-entries .inner-image {
+  width: 100%;
+  aspect-ratio: 4/3;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.blog-entries .inner-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blog-entries .inner-content {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.blog-entries .inner-content .inner-title {
+  font-size: 22px;
+  margin-bottom: 10px;
+  display: -webkit-box; /* Sử dụng để hỗ trợ ellipsis với multi-line */
+  -webkit-box-orient: vertical; /* Hướng của box */
+  overflow: hidden; /* Ẩn nội dung vượt quá */
+  text-overflow: ellipsis; /* Hiển thị dấu "..." */
+  white-space: normal; /* Đảm bảo text xuống dòng */
+  line-clamp: 1; /* Giới hạn chỉ 1 dòng */
+  -webkit-line-clamp: 1; /* Giới hạn chỉ 1 dòng cho trình duyệt hỗ trợ */
+}
+
+.blog-entries .inner-content .inner-desc {
+  font-size: 13px;
+  display: -webkit-box; /* Sử dụng để hỗ trợ ellipsis với multi-line */
+  -webkit-box-orient: vertical; /* Hướng của box */
+  overflow: hidden; /* Ẩn nội dung vượt quá */
+  text-overflow: ellipsis; /* Hiển thị dấu "..." */
+  white-space: normal; /* Đảm bảo text xuống dòng */
+  line-clamp: 3; /* Giới hạn chỉ 1 dòng */
+  -webkit-line-clamp: 3; /* Giới hạn chỉ 1 dòng cho trình duyệt hỗ trợ */
+}
+
+@media (max-width: 767.98px) {
+  .blog-entries .inner-image {
+    max-width: 370px;
+    margin: 0 auto;
+  }
+}
+/* End Blog-entries */

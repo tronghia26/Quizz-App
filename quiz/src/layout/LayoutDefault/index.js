@@ -57,7 +57,9 @@ function LayoutDefault() {
           <Outlet />
         </main>
         <footer className="layout-default__footer">
-          Copyright # 2025 by Lê Quang Trọng Nghĩa
+          <p>
+            &copy; {new Date().getFullYear()} QuizMaster. All rights reserved.
+          </p>
         </footer>
       </div>
     </>

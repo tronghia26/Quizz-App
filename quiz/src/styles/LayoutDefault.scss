@@ -18,7 +18,8 @@
   }
 
   &__main {
-    padding: 20px;
+    padding: 5px 60px;
+    min-height: 80vh;
   }
 
   // Account section
@@ -42,7 +43,9 @@
   &__footer {
     background: #ffcc00;
     text-align: center;
-    padding: 10px 20px;
+    height: 10vh;
+    line-height: 10vh;
+    // padding: 10px 20px;
   }
 }
 

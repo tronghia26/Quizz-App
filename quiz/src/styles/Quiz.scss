@@ -1,0 +1,52 @@
+.form-quiz {
+  //   background-color: #ccccff;
+
+  &__item {
+    margin-bottom: 20px;
+    background-color: #ffccff;
+    border-radius: 10px;
+    width: 120vh;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    // height: 220px;
+
+    p {
+      background-color: #33cccc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+  }
+
+  .form-quiz__answers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 cột */
+    // gap: 10px;
+
+    button {
+      //   margin-bottom: 10px;
+      margin: 10px 20px;
+    }
+  }
+
+  .form-quiz__answer {
+    background-color: #f5f5f5; /* Màu nền mặc định */
+    padding: 10px; /* Khoảng cách bên trong */
+    text-align: center; /* Căn giữa nội dung */
+    border: 1px solid #ddd; /* Đường viền nhạt */
+    border-radius: 8px; /* Bo góc */
+    cursor: pointer; /* Hiệu ứng trỏ chuột */
+    transition: background-color 0.3s, border-color 0.3s; /* Hiệu ứng mượt */
+  }
+
+  .form-quiz__answer:hover {
+    background-color: #e6e6e6; /* Màu nền khi hover */
+  }
+
+  .form-quiz__answer.selected {
+    background-color: #d1e7ff; /* Màu nền khi được chọn */
+    border-color: #a3d4ff; /* Đường viền khi được chọn */
+  }
+}

@@ -56,6 +56,11 @@
       "id": "4",
       "name": "ReactJS",
       "image": "/assets/topics/reactjs.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Football",
+      "image": "/assets/topics/Cristiano-Ronaldo.jpg"
     }
   ],
   "questions": [
@@ -526,6 +531,126 @@
         "Không rõ"
       ],
       "correctAnswer": 0
+    },
+    {
+      "id": "40",
+      "topicId": 5,
+      "question": "Cristiano Ronaldo gia nhập Real Madrid vào năm nào?",
+      "answers": [
+        "2007",
+        "2008",
+        "2009",
+        "2010"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "41",
+      "topicId": 5,
+      "question": "Cristiano Ronaldo đã ghi được bao nhiêu bàn thắng trong màu áo Real Madrid?",
+      "answers": [
+        "450",
+        "500",
+        "400",
+        "430"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "42",
+      "topicId": 5,
+      "question": "Ronaldo giành được bao nhiêu danh hiệu Champions League cùng Real Madrid?",
+      "answers": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "43",
+      "topicId": 5,
+      "question": "Số áo mà Ronaldo đã mặc khi thi đấu tại Real Madrid là gì?",
+      "answers": [
+        "7",
+        "9",
+        "10",
+        "11"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "44",
+      "topicId": 5,
+      "question": "Ronaldo rời Real Madrid để gia nhập câu lạc bộ nào vào năm 2018?",
+      "answers": [
+        "Manchester United",
+        "Juventus",
+        "PSG",
+        "Bayern Munich"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "45",
+      "topicId": 5,
+      "question": "Ronaldo giành được bao nhiêu Quả bóng vàng khi còn chơi cho Real Madrid?",
+      "answers": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "46",
+      "topicId": 5,
+      "question": "Cristiano Ronaldo phá kỷ lục ghi bàn tại La Liga với bao nhiêu bàn thắng trong một mùa giải?",
+      "answers": [
+        "40",
+        "46",
+        "48",
+        "50"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "47",
+      "topicId": 5,
+      "question": "Huấn luyện viên nào đã dẫn dắt Ronaldo và Real Madrid giành 3 Champions League liên tiếp?",
+      "answers": [
+        "José Mourinho",
+        "Zinedine Zidane",
+        "Carlo Ancelotti",
+        "Rafa Benitez"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "48",
+      "topicId": 5,
+      "question": "Ronaldo từng ghi được bao nhiêu cú hat-trick trong màu áo Real Madrid?",
+      "answers": [
+        "30",
+        "34",
+        "36",
+        "38"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "49",
+      "topicId": 5,
+      "question": "Ronaldo có bao nhiêu pha kiến tạo trong sự nghiệp tại Real Madrid?",
+      "answers": [
+        "100",
+        "120",
+        "131",
+        "150"
+      ],
+      "correctAnswer": 2
     }
   ],
   "answers": [
@@ -1360,6 +1485,845 @@
         },
         {
           "questionId": 39,
+          "answer": 3
+        },
+        {
+          "questionId": null,
+          "answer": null
+        }
+      ]
+    },
+    {
+      "id": "cb37",
+      "userId": "b89a",
+      "topicId": "3",
+      "answers": [
+        {
+          "questionId": 21,
+          "answer": 0
+        },
+        {
+          "questionId": 21,
+          "answer": 1
+        },
+        {
+          "questionId": 21,
+          "answer": 2
+        },
+        {
+          "questionId": 21,
+          "answer": 3
+        },
+        {
+          "questionId": 22,
+          "answer": 0
+        },
+        {
+          "questionId": 22,
+          "answer": 1
+        },
+        {
+          "questionId": 22,
+          "answer": 2
+        },
+        {
+          "questionId": 22,
+          "answer": 3
+        },
+        {
+          "questionId": 23,
+          "answer": 0
+        },
+        {
+          "questionId": 23,
+          "answer": 1
+        },
+        {
+          "questionId": 23,
+          "answer": 2
+        },
+        {
+          "questionId": 23,
+          "answer": 3
+        },
+        {
+          "questionId": 24,
+          "answer": 0
+        },
+        {
+          "questionId": 24,
+          "answer": 1
+        },
+        {
+          "questionId": 24,
+          "answer": 2
+        },
+        {
+          "questionId": 24,
+          "answer": 3
+        },
+        {
+          "questionId": 25,
+          "answer": 0
+        },
+        {
+          "questionId": 25,
+          "answer": 1
+        },
+        {
+          "questionId": 25,
+          "answer": 2
+        },
+        {
+          "questionId": 25,
+          "answer": 3
+        },
+        {
+          "questionId": 26,
+          "answer": 0
+        },
+        {
+          "questionId": 26,
+          "answer": 1
+        },
+        {
+          "questionId": 26,
+          "answer": 2
+        },
+        {
+          "questionId": 26,
+          "answer": 3
+        },
+        {
+          "questionId": 27,
+          "answer": 0
+        },
+        {
+          "questionId": 27,
+          "answer": 1
+        },
+        {
+          "questionId": 27,
+          "answer": 2
+        },
+        {
+          "questionId": 27,
+          "answer": 3
+        },
+        {
+          "questionId": 28,
+          "answer": 0
+        },
+        {
+          "questionId": 28,
+          "answer": 1
+        },
+        {
+          "questionId": 28,
+          "answer": 2
+        },
+        {
+          "questionId": 28,
+          "answer": 3
+        },
+        {
+          "questionId": 29,
+          "answer": 0
+        },
+        {
+          "questionId": 29,
+          "answer": 1
+        },
+        {
+          "questionId": 29,
+          "answer": 2
+        },
+        {
+          "questionId": 29,
+          "answer": 3
+        },
+        {
+          "questionId": null,
+          "answer": null
+        }
+      ]
+    },
+    {
+      "id": "ed6c",
+      "userId": "05ea",
+      "topicId": "2",
+      "answers": [
+        {
+          "questionId": 11,
+          "answer": 0
+        },
+        {
+          "questionId": 11,
+          "answer": 1
+        },
+        {
+          "questionId": 11,
+          "answer": 2
+        },
+        {
+          "questionId": 11,
+          "answer": 3
+        },
+        {
+          "questionId": 12,
+          "answer": 0
+        },
+        {
+          "questionId": 12,
+          "answer": 1
+        },
+        {
+          "questionId": 12,
+          "answer": 2
+        },
+        {
+          "questionId": 12,
+          "answer": 3
+        },
+        {
+          "questionId": 13,
+          "answer": 0
+        },
+        {
+          "questionId": 13,
+          "answer": 1
+        },
+        {
+          "questionId": 13,
+          "answer": 2
+        },
+        {
+          "questionId": 13,
+          "answer": 3
+        },
+        {
+          "questionId": 14,
+          "answer": 0
+        },
+        {
+          "questionId": 14,
+          "answer": 1
+        },
+        {
+          "questionId": 14,
+          "answer": 2
+        },
+        {
+          "questionId": 14,
+          "answer": 3
+        },
+        {
+          "questionId": 15,
+          "answer": 0
+        },
+        {
+          "questionId": 15,
+          "answer": 1
+        },
+        {
+          "questionId": 15,
+          "answer": 2
+        },
+        {
+          "questionId": 15,
+          "answer": 3
+        },
+        {
+          "questionId": 16,
+          "answer": 0
+        },
+        {
+          "questionId": 16,
+          "answer": 1
+        },
+        {
+          "questionId": 16,
+          "answer": 2
+        },
+        {
+          "questionId": 16,
+          "answer": 3
+        },
+        {
+          "questionId": 17,
+          "answer": 0
+        },
+        {
+          "questionId": 17,
+          "answer": 1
+        },
+        {
+          "questionId": 17,
+          "answer": 2
+        },
+        {
+          "questionId": 17,
+          "answer": 3
+        },
+        {
+          "questionId": 18,
+          "answer": 0
+        },
+        {
+          "questionId": 18,
+          "answer": 1
+        },
+        {
+          "questionId": 18,
+          "answer": 2
+        },
+        {
+          "questionId": 18,
+          "answer": 3
+        },
+        {
+          "questionId": 19,
+          "answer": 0
+        },
+        {
+          "questionId": 19,
+          "answer": 1
+        },
+        {
+          "questionId": 19,
+          "answer": 2
+        },
+        {
+          "questionId": 19,
+          "answer": 3
+        },
+        {
+          "questionId": 20,
+          "answer": 0
+        },
+        {
+          "questionId": 20,
+          "answer": 1
+        },
+        {
+          "questionId": 20,
+          "answer": 2
+        },
+        {
+          "questionId": 20,
+          "answer": 3
+        },
+        {
+          "questionId": null,
+          "answer": null
+        }
+      ]
+    },
+    {
+      "id": "2d12",
+      "userId": "b89a",
+      "topicId": "5",
+      "answers": [
+        {
+          "questionId": 40,
+          "answer": 0
+        },
+        {
+          "questionId": 40,
+          "answer": 1
+        },
+        {
+          "questionId": 40,
+          "answer": 2
+        },
+        {
+          "questionId": 40,
+          "answer": 3
+        },
+        {
+          "questionId": 41,
+          "answer": 0
+        },
+        {
+          "questionId": 41,
+          "answer": 1
+        },
+        {
+          "questionId": 41,
+          "answer": 2
+        },
+        {
+          "questionId": 41,
+          "answer": 3
+        },
+        {
+          "questionId": 42,
+          "answer": 0
+        },
+        {
+          "questionId": 42,
+          "answer": 1
+        },
+        {
+          "questionId": 42,
+          "answer": 2
+        },
+        {
+          "questionId": 42,
+          "answer": 3
+        },
+        {
+          "questionId": 43,
+          "answer": 0
+        },
+        {
+          "questionId": 43,
+          "answer": 1
+        },
+        {
+          "questionId": 43,
+          "answer": 2
+        },
+        {
+          "questionId": 43,
+          "answer": 3
+        },
+        {
+          "questionId": 44,
+          "answer": 0
+        },
+        {
+          "questionId": 44,
+          "answer": 1
+        },
+        {
+          "questionId": 44,
+          "answer": 2
+        },
+        {
+          "questionId": 44,
+          "answer": 3
+        },
+        {
+          "questionId": 45,
+          "answer": 0
+        },
+        {
+          "questionId": 45,
+          "answer": 1
+        },
+        {
+          "questionId": 45,
+          "answer": 2
+        },
+        {
+          "questionId": 45,
+          "answer": 3
+        },
+        {
+          "questionId": 46,
+          "answer": 0
+        },
+        {
+          "questionId": 46,
+          "answer": 1
+        },
+        {
+          "questionId": 46,
+          "answer": 2
+        },
+        {
+          "questionId": 46,
+          "answer": 3
+        },
+        {
+          "questionId": 47,
+          "answer": 0
+        },
+        {
+          "questionId": 47,
+          "answer": 1
+        },
+        {
+          "questionId": 47,
+          "answer": 2
+        },
+        {
+          "questionId": 47,
+          "answer": 3
+        },
+        {
+          "questionId": 48,
+          "answer": 0
+        },
+        {
+          "questionId": 48,
+          "answer": 1
+        },
+        {
+          "questionId": 48,
+          "answer": 2
+        },
+        {
+          "questionId": 48,
+          "answer": 3
+        },
+        {
+          "questionId": 49,
+          "answer": 0
+        },
+        {
+          "questionId": 49,
+          "answer": 1
+        },
+        {
+          "questionId": 49,
+          "answer": 2
+        },
+        {
+          "questionId": 49,
+          "answer": 3
+        },
+        {
+          "questionId": null,
+          "answer": null
+        }
+      ]
+    },
+    {
+      "id": "26f1",
+      "userId": "b89a",
+      "topicId": "5",
+      "answers": [
+        {
+          "questionId": 40,
+          "answer": 0
+        },
+        {
+          "questionId": 40,
+          "answer": 1
+        },
+        {
+          "questionId": 40,
+          "answer": 2
+        },
+        {
+          "questionId": 40,
+          "answer": 3
+        },
+        {
+          "questionId": 41,
+          "answer": 0
+        },
+        {
+          "questionId": 41,
+          "answer": 1
+        },
+        {
+          "questionId": 41,
+          "answer": 2
+        },
+        {
+          "questionId": 41,
+          "answer": 3
+        },
+        {
+          "questionId": 42,
+          "answer": 0
+        },
+        {
+          "questionId": 42,
+          "answer": 1
+        },
+        {
+          "questionId": 42,
+          "answer": 2
+        },
+        {
+          "questionId": 42,
+          "answer": 3
+        },
+        {
+          "questionId": 43,
+          "answer": 0
+        },
+        {
+          "questionId": 43,
+          "answer": 1
+        },
+        {
+          "questionId": 43,
+          "answer": 2
+        },
+        {
+          "questionId": 43,
+          "answer": 3
+        },
+        {
+          "questionId": 44,
+          "answer": 0
+        },
+        {
+          "questionId": 44,
+          "answer": 1
+        },
+        {
+          "questionId": 44,
+          "answer": 2
+        },
+        {
+          "questionId": 44,
+          "answer": 3
+        },
+        {
+          "questionId": 45,
+          "answer": 0
+        },
+        {
+          "questionId": 45,
+          "answer": 1
+        },
+        {
+          "questionId": 45,
+          "answer": 2
+        },
+        {
+          "questionId": 45,
+          "answer": 3
+        },
+        {
+          "questionId": 46,
+          "answer": 0
+        },
+        {
+          "questionId": 46,
+          "answer": 1
+        },
+        {
+          "questionId": 46,
+          "answer": 2
+        },
+        {
+          "questionId": 46,
+          "answer": 3
+        },
+        {
+          "questionId": 47,
+          "answer": 0
+        },
+        {
+          "questionId": 47,
+          "answer": 1
+        },
+        {
+          "questionId": 47,
+          "answer": 2
+        },
+        {
+          "questionId": 47,
+          "answer": 3
+        },
+        {
+          "questionId": 48,
+          "answer": 0
+        },
+        {
+          "questionId": 48,
+          "answer": 1
+        },
+        {
+          "questionId": 48,
+          "answer": 2
+        },
+        {
+          "questionId": 48,
+          "answer": 3
+        },
+        {
+          "questionId": 49,
+          "answer": 0
+        },
+        {
+          "questionId": 49,
+          "answer": 1
+        },
+        {
+          "questionId": 49,
+          "answer": 2
+        },
+        {
+          "questionId": 49,
+          "answer": 3
+        },
+        {
+          "questionId": null,
+          "answer": null
+        }
+      ]
+    },
+    {
+      "id": "29cd",
+      "userId": "b89a",
+      "topicId": "2",
+      "answers": [
+        {
+          "questionId": 11,
+          "answer": 0
+        },
+        {
+          "questionId": 11,
+          "answer": 1
+        },
+        {
+          "questionId": 11,
+          "answer": 2
+        },
+        {
+          "questionId": 11,
+          "answer": 3
+        },
+        {
+          "questionId": 12,
+          "answer": 0
+        },
+        {
+          "questionId": 12,
+          "answer": 1
+        },
+        {
+          "questionId": 12,
+          "answer": 2
+        },
+        {
+          "questionId": 12,
+          "answer": 3
+        },
+        {
+          "questionId": 13,
+          "answer": 0
+        },
+        {
+          "questionId": 13,
+          "answer": 1
+        },
+        {
+          "questionId": 13,
+          "answer": 2
+        },
+        {
+          "questionId": 13,
+          "answer": 3
+        },
+        {
+          "questionId": 14,
+          "answer": 0
+        },
+        {
+          "questionId": 14,
+          "answer": 1
+        },
+        {
+          "questionId": 14,
+          "answer": 2
+        },
+        {
+          "questionId": 14,
+          "answer": 3
+        },
+        {
+          "questionId": 15,
+          "answer": 0
+        },
+        {
+          "questionId": 15,
+          "answer": 1
+        },
+        {
+          "questionId": 15,
+          "answer": 2
+        },
+        {
+          "questionId": 15,
+          "answer": 3
+        },
+        {
+          "questionId": 16,
+          "answer": 0
+        },
+        {
+          "questionId": 16,
+          "answer": 1
+        },
+        {
+          "questionId": 16,
+          "answer": 2
+        },
+        {
+          "questionId": 16,
+          "answer": 3
+        },
+        {
+          "questionId": 17,
+          "answer": 0
+        },
+        {
+          "questionId": 17,
+          "answer": 1
+        },
+        {
+          "questionId": 17,
+          "answer": 2
+        },
+        {
+          "questionId": 17,
+          "answer": 3
+        },
+        {
+          "questionId": 18,
+          "answer": 0
+        },
+        {
+          "questionId": 18,
+          "answer": 1
+        },
+        {
+          "questionId": 18,
+          "answer": 2
+        },
+        {
+          "questionId": 18,
+          "answer": 3
+        },
+        {
+          "questionId": 19,
+          "answer": 0
+        },
+        {
+          "questionId": 19,
+          "answer": 1
+        },
+        {
+          "questionId": 19,
+          "answer": 2
+        },
+        {
+          "questionId": 19,
+          "answer": 3
+        },
+        {
+          "questionId": 20,
+          "answer": 0
+        },
+        {
+          "questionId": 20,
+          "answer": 1
+        },
+        {
+          "questionId": 20,
+          "answer": 2
+        },
+        {
+          "questionId": 20,
           "answer": 3
         },
         {

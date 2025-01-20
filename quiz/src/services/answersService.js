@@ -8,6 +8,11 @@ export const getAnswerByUserId = async () => {
   return result;
 };
 
+export const getAllAnswer = async () => {
+  const result = await get(`answers`);
+  return result;
+};
+
 export const getAnswer = async (id) => {
   const result = await get(`answers/${id}`);
   return result;

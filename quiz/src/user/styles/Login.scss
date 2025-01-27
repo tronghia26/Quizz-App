@@ -1,0 +1,78 @@
+.login-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 20%;
+  left: 37%;
+
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .input-group .icon {
+    margin-right: 10px;
+    color: #aaa;
+  }
+
+  .input-group input {
+    border: none;
+    flex: 1;
+    outline: none;
+    font-size: 14px;
+  }
+
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 14px;
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .btn:hover {
+    background-color: #0056b3;
+  }
+
+  .social-login {
+    margin: 20px 0;
+  }
+
+  .register {
+    margin: 20px 0;
+  }
+  .register a {
+    color: black;
+  }
+
+  .social-icons a {
+    margin: 0 10px;
+    color: #555;
+    font-size: 20px;
+  }
+
+  .icon-facebook:hover,
+  .icon-twitter:hover,
+  .icon-google:hover {
+    color: #007bff;
+  }
+}

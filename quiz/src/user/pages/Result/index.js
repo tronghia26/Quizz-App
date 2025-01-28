@@ -2,11 +2,17 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getAnswer } from "../../services/answersService";
 import { getListQuestion } from "../../services/questionsService";
-import "../../styles/Result.css";
+import "../../styles/Result.scss";
+import {
+  calculateCorrectAnswers,
+  calculateTotalQuestions,
+} from "../../../utils/quiz";
 
 function Result() {
   const params = useParams();
   const [dataResult, setDataResult] = useState([]);
+  const [countCorrect, setCountCorrect] = useState(0);
+  const [countQuestions, setCountQuestions] = useState(0);
 
   useEffect(() => {
     const fetchApi = async () => {
@@ -29,11 +35,20 @@ function Result() {
     };
     fetchApi();
   }, [params.id]);
+
+  useEffect(() => {
+    const countC = calculateCorrectAnswers(dataResult);
+    setCountCorrect(countC);
+    const countQ = calculateTotalQuestions(dataResult);
+    setCountQuestions(countQ);
+  }, [dataResult]);
   console.log(dataResult);
 
   return (
     <>
-      <h1>Kết quả:</h1>
+      <h1>
+        Kết quả: {countCorrect}/{countQuestions}
+      </h1>
       <div className="result__list">
         {dataResult.map((item, index) => (
           <div className="result__item" key={item.id}>

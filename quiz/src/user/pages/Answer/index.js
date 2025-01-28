@@ -69,6 +69,17 @@ function Answer() {
   return (
     <>
       <h2>Danh sách bài tập đã luyện tập</h2>
+      <form className="search" onsubmit="event.preventDefault();" role="search">
+        <label for="search">Search for stuff</label>
+        <input
+          id="search"
+          type="search"
+          placeholder="Search..."
+          autofocus
+          required
+        />
+        <button type="submit">Search</button>
+      </form>
       {dataAnswer.length > 0 && (
         <div className="topic__list">
           {dataAnswer.map((item) => (

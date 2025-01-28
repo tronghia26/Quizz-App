@@ -23,7 +23,7 @@ function Login() {
     if (response.length > 0) {
       console.log(response);
       setCookie("id", response[0].id, 1);
-      setCookie("fullname", response[0].fullname, 1);
+      setCookie("fullName", response[0].fullName, 1);
       setCookie("email", response[0].email, 1);
       setCookie("token", response[0].token, 1);
       dispatch(checkLogin(true));

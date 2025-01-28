@@ -1,18 +1,13 @@
 import React, { useState, useEffect } from "react";
 import "../../styles/Profile.scss"; // File SCSS cho trang
+import { getCookie } from "../../helpers/cookie";
 
 function Profile() {
-  const [userInfo, setUserInfo] = useState({
-    name: "John Doe",
-    email: "johndoe@example.com",
-    avatar: "https://via.placeholder.com/150",
-  });
-
-  // Fetch user data if needed (mocked here)
-  useEffect(() => {
-    // Giả sử bạn có API gọi đến thông tin người dùng
-    // fetchUserInfo().then(data => setUserInfo(data));
-  }, []);
+  const userInfo = {
+    name: getCookie("fullName"),
+    email: getCookie("email"),
+    avatar: "",
+  };
 
   return (
     <div className="profile-container">

@@ -96,11 +96,14 @@ function Home() {
             <div className="col-xl-6 col-lg-6 col-md-12">
               <div className="inner-content">
                 <h3 className="inner-title">Let’s discuss about you project</h3>
-                <p className="inner-desc">
+                {/* <p className="inner-desc">
                   Nullam sit amet purus libero. Etiam ullamcorper nisl ut augue
                   blandit, at finibus leo efficitur. Nam gravida purus non
                   sapien auctor, ut aliquam magna ullamcorper.
-                </p>
+                </p> */}
+                <Link to="/create-quiz" className="button button-two">
+                  CREATE QUIZ NOW
+                </Link>
               </div>
             </div>
           </div>

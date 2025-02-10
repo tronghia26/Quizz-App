@@ -12,6 +12,7 @@ import Introduce from "../pages/Introduce";
 import Document from "../pages/Document";
 import Register from "../pages/Register";
 import Profile from "../pages/Profile";
+import CreateQuestion from "../pages/CreateQuiz";
 
 export const routes = [
   {
@@ -49,6 +50,10 @@ export const routes = [
       {
         path: "*",
         element: <Error404 />,
+      },
+      {
+        path: "create-quiz",
+        element: <CreateQuestion />,
       },
       {
         element: <PrivateRoutes />,

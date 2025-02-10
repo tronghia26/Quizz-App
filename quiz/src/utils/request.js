@@ -39,3 +39,22 @@ export const edit = async (path, data) => {
   const result = await response.json();
   return result;
 };
+
+export const createQuestion = async (newQuestion) => {
+  try {
+    const response = await fetch(`${API_DOMAIN}/questions`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(newQuestion),
+    });
+    if (!response.ok) {
+      throw new Error("Failed to create question");
+    }
+    return await response.json();
+  } catch (error) {
+    console.error("Error creating question:", error);
+    throw error;
+  }
+};
